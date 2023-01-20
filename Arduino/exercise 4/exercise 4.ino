@@ -21,8 +21,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,LOW);
       digitalWrite(8,LOW);
-    }
-    if(i == 8){
+    } else if(i == 8){
       digitalWrite(2,LOW);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
@@ -30,8 +29,7 @@ void loop() {
       digitalWrite(6,LOW);
       digitalWrite(7,LOW);
       digitalWrite(8,LOW);
-    }
-    if(i == 7){
+    } else if(i == 7){
       digitalWrite(2,LOW);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
@@ -39,8 +37,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,HIGH);
       digitalWrite(8,HIGH);
-    }
-    if(i == 6){
+    } else if(i == 6){
       digitalWrite(2,LOW);
       digitalWrite(3,HIGH);
       digitalWrite(4,LOW);
@@ -48,8 +45,7 @@ void loop() {
       digitalWrite(6,LOW);
       digitalWrite(7,LOW);
       digitalWrite(8,LOW);
-    }
-    if(i == 5){
+    } else if(i == 5){
       digitalWrite(2,LOW);
       digitalWrite(3,HIGH);
       digitalWrite(4,LOW);
@@ -57,8 +53,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,LOW);
       digitalWrite(8,LOW);
-    }
-    if(i == 4){
+    } else if(i == 4){
       digitalWrite(2,HIGH);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
@@ -66,8 +61,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,LOW);
       digitalWrite(8,LOW);
-    }
-    if(i == 3){
+    } else if(i == 3){
       digitalWrite(2,LOW);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
@@ -75,8 +69,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,HIGH);
       digitalWrite(8,LOW);
-    }
-    if(i == 2){
+    } else if(i == 2){
       digitalWrite(2,LOW);
       digitalWrite(3,LOW);
       digitalWrite(4,HIGH);
@@ -84,8 +77,7 @@ void loop() {
       digitalWrite(6,LOW);
       digitalWrite(7,HIGH);
       digitalWrite(8,LOW);
-    }
-    if(i == 1){
+    } else if(i == 1){
       digitalWrite(2,HIGH);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
@@ -93,8 +85,7 @@ void loop() {
       digitalWrite(6,HIGH);
       digitalWrite(7,HIGH);
       digitalWrite(8,HIGH);
-    }
-    if(i == 0){
+    } else {
       digitalWrite(2,LOW);
       digitalWrite(3,LOW);
       digitalWrite(4,LOW);
